@@ -2,6 +2,7 @@
 civil seja "CASADA", solicitar o tempo de casada (anos). */
 
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     char nome[50], sexo, estado_c;
@@ -21,12 +22,11 @@ int main(){
 
     printf("\n");
 
-    if (sexo == 'f' || sexo == 'F'){
-        if (estado_c == 'c' || estado_c == 'C'){
+    if ((sexo == 'F' || sexo == 'f') && (strcmp(estado_c, "Casada") == 0 || strcmp(estado_c, "casada") == 0)){
         int ano_c;
-        printf("Infrome qunatos anos de casada voce tem: ");
+        printf("Informe quantos anos de casada voce tem: ");
         scanf("%d", &ano_c);
-        printf("\nVoce esta casada ha %d anos.", ano_c);
+        printf("Voce esta casada ha %d anos.\n", ano_c);
         }
     }
 
