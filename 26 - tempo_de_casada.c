@@ -28,7 +28,6 @@ int main(){
         scanf("%d", &ano_c);
         printf("Voce esta casada ha %d anos.\n", ano_c);
         }
-    }
 
     return 0;
 }
