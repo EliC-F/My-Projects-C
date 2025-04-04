@@ -15,7 +15,7 @@ int main(){
     printf("\n");
 
     printf("Qual o seu sexo? Masculino (M) ou Feminino (F): ");
-    scanf("%s", &sexo);
+    scanf("%c", &sexo);
 
     printf("\n");
 
@@ -36,7 +36,7 @@ int main(){
     }
 
     else{
-        printf("O sexo infomado nao e valido!, reinicie o programa.");
+        printf("O sexo infomado nao e valido! Por favor, reinicie o programa e insira 'M' ou 'F'.");
     }
 
     return 0;
