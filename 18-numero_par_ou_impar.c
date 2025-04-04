@@ -11,11 +11,11 @@ int main(){
     printf("\n");
 
     if (num % 2 == 0){
-        printf("O numeor %d e par!", num);
+        printf("O numero %d e par!", num);
     }
 
     else{
-        printf("O numeor %d e impar!", num);
+        printf("O numero %d e impar!", num);
     }
 
     return 0;
