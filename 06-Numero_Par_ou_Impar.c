@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &num);
 
     if (num % 2 == 0){
-        printf("O numeor %d e par!", num);
+        printf("O numero %d e par!", num);
     }
     else{
         printf("o numero %d e impar!", num);
