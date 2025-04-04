@@ -18,7 +18,12 @@ int main(){
 
     printf("\n");
 
-    printf("\nEscolha a forma de pagamento: \nA vista ou no pix (1).\nCartao de credito 1x (2).\nCartao da loja no credito 2x (3).\nCartao da loja no credito 2x (4).");
+    printf("Escolha a forma de pagamento:\n");
+    printf("1 - À vista em dinheiro ou pix (10%% de desconto)\n");
+    printf("2 - Cartão de Crédito em 1x (15%% de desconto)\n");
+    printf("3 - Cartão da loja em 2x (sem juros)\n");
+    printf("4 - Cartão de Crédito em 2x (10%% de juros)\n");
+    printf("Digite a opção (1, 2, 3 ou 4): ");
     scanf("%d", &opc);
 
     switch (opc){
@@ -55,6 +60,6 @@ int main(){
         printf("A opcao escolhida nao e valida!");
             break;
     }
-
+    
     return 0;
 }
