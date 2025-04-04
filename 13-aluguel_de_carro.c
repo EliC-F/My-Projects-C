@@ -20,7 +20,7 @@ int main(){
 
     valor = (dia * 60) + (km * 0.15);
 
-    printf("%2.f km rodados e %d dias, o valor a pagar sera:  R$%.2f", km, dia, valor);
+    printf("%.2f km rodados e %d dias, o valor a pagar sera:  R$%.2f", km, dia, valor);
 
     return 0;
 }
