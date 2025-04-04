@@ -1,6 +1,6 @@
 //Escreva um algoritmo que leia um valor em metros e o exiba convertido em milímetros.
 
-#include <Stdio.h>
+#include <stdio.h>
 
 int main(){
     float metro, milimetro;
