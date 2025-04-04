@@ -11,7 +11,7 @@ Código  Condição de Pagamento                              Cálculo
 #include <stdio.h>
 
 int main(){
-    float produto, par, desc;
+    float produto, par, desc, acr;
     int opc;
     printf("Informe o preco do produto: ");
     scanf("%f", &produto);
@@ -23,36 +23,37 @@ int main(){
 
     switch (opc){
     case 1:
-
-    desc = produto - (produto * 0.1);
-
-    printf("Como o pagamento e a vista/pix, tem um desconto de 10%%,de R$%.2f ficou R$%.2f", produto, desc);
-        break;
+    
+        desc = produto - (produto * 0.1);
+    
+        printf("Como o pagamento e a vista/pix, tem um desconto de 10%%,de R$%.2f ficou R$%.2f", produto, desc);
+            break;
 
     case 2:
-
-    desc = produto - (produto * 0.15);
-
-    printf("Como o pagamento e em cartao de credito em 1x, tem um desconto de 15%%,de R$%.2f ficou R$%.2f", produto, desc);
-        break;
+    
+        desc = produto - (produto * 0.15);
+    
+        printf("Como o pagamento e em cartao de credito em 1x, tem um desconto de 15%%,de R$%.2f ficou R$%.2f", produto, desc);
+            break;
 
     case 3:
+    
+        par = produto / 2;
+    
+        printf("Por ser um cartão da loja, o produto terá o valor de R$%.2f sem juros, podendo parcelar de 2x! ficando com duas parcelas de %.2f", produto, par);
+            break;
 
-    par = produto / 2;
-
-    printf("Por ser um cartão da loja, o produto terá o valor de R$%.2f sem juros, podendo parcelar de 2x! ficando com duas parcelas de %.2f", produto, par);
-        break;
-
-case 4:
-
-    par = (produto + (produto * 0.1)) / 2;
-
-    printf("Por ser um cartão que nao e da loja, o produto terá o valor de R$%.2f mais 10%% de juros, podendo parcelar de 2x! ficando com duas parcelas de %.2f", produto, par);
-        break;
+    case 4:
+        acr = produto + (produto * 0.1);
+        
+        par = (produto + (produto * 0.1)) / 2;
+    
+        printf("Por ser um cartão que nao e da loja, o produto terá o valor de R$%.2f mais 10%% de juros, ficando com o valor de %.2f, podendo parcelar de 2x! ficando com duas parcelas de %.2f", produto, acr, par);
+            break;
         
     default:
-    printf("A opcao escolhida nao e valida!");
-        break;
+        printf("A opcao escolhida nao e valida!");
+            break;
     }
 
     return 0;
