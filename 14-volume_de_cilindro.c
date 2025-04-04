@@ -6,12 +6,12 @@
 int main(){
     float altura, raio, volume;
 
-    printf("Infrome a altura do cilindro: ");
+    printf("Informe a altura do cilindro: ");
     scanf("%f", &altura);
 
     printf("\n");
 
-    printf("Infrome o raio do cilindro: ");
+    printf("Informe o raio do cilindro: ");
     scanf("%f", &raio);
 
     printf("\n");
