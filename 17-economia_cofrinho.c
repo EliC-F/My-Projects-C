@@ -7,27 +7,27 @@ que calcule o valor, em reais, economizado. Considere a existência das seguinte
 int main(){
     float m_5, m_10, m_25, m_50, m_1, soma;
 
-    printf("Informe quantas moedas de 0.5 voce guardou: ");
+    printf("Informe quantas moedas de 5 centavos voce guardou: ");
     scanf("%f", &m_5);
 
     printf("\n");
     
-    printf("Informe quantas moedas de 0.10 voce guardou: ");
+    printf("Informe quantas moedas de 10 centavos voce guardou: ");
     scanf("%f", &m_10);
 
     printf("\n");
     
-    printf("Informe quantas moedas de 0.25 voce guardou: ");
+    printf("Informe quantas moedas de 25 centavos voce guardou: ");
     scanf("%f", &m_25);
 
     printf("\n");
     
-    printf("Informe quantas moedas de 0.50 voce guardou: ");
+    printf("Informe quantas moedas de 50 centavos voce guardou: ");
     scanf("%f", &m_50);
 
     printf("\n");
 
-    printf("Informe quantas moedas de 1.00 voce guardou: ");
+    printf("Informe quantas moedas de 1 real voce guardou: ");
     scanf("%f", &m_1);
 
     printf("\n");
