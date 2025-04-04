@@ -1,4 +1,4 @@
-/* 2. Encontre o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo,
+/* Encontre o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo,
 imprimindo o resultado. */
 
 #include <stdio.h>
@@ -24,7 +24,7 @@ int main(){
 
         trip = num * 3;
 
-        printf("O numero %d e negativo, seu dobro vale: %d", num, trip);
+        printf("O numero %d e negativo, seu triplo vale: %d", num, trip);
     }
 
     return 0;
