@@ -1,4 +1,4 @@
-/* 4. Faça um algoritmo para ler a temperatura atual e conforme leitura, imprimir o resultado de
+/* Faça um algoritmo para ler a temperatura atual e conforme leitura, imprimir o resultado de
 acordo com a tabela abaixo. 
 T < 15 = muito frio
 16 <= T < 23 = frio
@@ -15,19 +15,19 @@ int main(){
     scanf("%d", &temp);
 
     if (temp < 15){
-        printf("Muito frio.");
+        printf("Muito frio.\n");
     }
     else if (temp >= 16  && temp < 23){
-        printf("Frio.");
+        printf("Frio.\n");
     }
     else if (temp >= 23 && temp < 26){
-        printf("Agradavel.");
+        printf("Agradavel.\n");
     }
     else if (temp >= 26 && temp < 30){
-        printf("Quente.");
+        printf("Quente.\n");
     }
     else{
-        printf("Muito Quente.");
+        printf("Muito Quente.\n");
     }
 
     return 0;
