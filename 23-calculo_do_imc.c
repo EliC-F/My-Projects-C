@@ -28,6 +28,10 @@ int main(){
 
     imc = peso / (altura * altura);
 
+    printf("Seu IMC e: %.2f", imc);
+
+    printf("\n");
+
     if (imc < 18.5){
         printf("Abaixo do peso");
     }
