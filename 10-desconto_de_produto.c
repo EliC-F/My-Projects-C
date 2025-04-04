@@ -4,14 +4,14 @@
 
 int main(){
     float prod, desc;
-    printf("Informe o valor do produtor: ");
+    printf("Informe o valor do produto: ");
     scanf("%f", &prod);
 
     printf("\n");
 
     desc = prod - (prod * 0.05); // 5% de desconto.
 
-    printf("O valor do seu produtor e R$%.2f com o desconto de 5 porcento fica igual a R$%.2f", prod, desc);
+    printf("O valor do seu produtor e R$%.2f com o desconto de 5%% fica igual a R$%.2f", prod, desc);
 
     return 0;
 }
