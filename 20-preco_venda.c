@@ -17,7 +17,8 @@ int main(){
 
         lucro = preco + (preco * 0.45);
 
-        printf("O preco do produto e R$%.2f, com o ajuste de preco fica R$%.2f", preco, lucro);
+        printf("O preco do produto e R$%.2f, com o ajuste de preco de 45%%, fica R$%.2f", preco, lucro);
+        
     }
 
     else{
@@ -25,7 +26,7 @@ int main(){
 
         lucro = preco + (preco * 0.30);
 
-        printf("O preco do produto e R$%.2f, com o ajuste de preco fica R$%.2f", preco, lucro);
+        printf("O preco do produto e R$%.2f, com o ajuste de preco de 30%%, fica R$%.2f", preco, lucro);
     }
 
     return 0;
