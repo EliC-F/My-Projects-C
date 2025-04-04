@@ -19,12 +19,12 @@ int main(){
 
     if (a == b){
         c = a + b;
-        printf("Como %d e %d sao iguais, soma-se o resultado, ficando: %d", a, b, c);
+        printf("Como %d e %d sao iguais, a soma e: %d", a, b, c);
     }
 
     else{
         c = a * b;
-        printf("Como %d e %d sao diferentes, multiplica-se o resultado, ficando: %d", a, b, c);
+        printf("Como %d e %d sao diferentes, a multiplicacao e: %d", a, b, c);
     }
 
     return 0;
