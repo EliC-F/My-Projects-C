@@ -7,7 +7,7 @@ int main(){
     printf("Digite um numero: ");
     scanf("%d", &num);
 
-    printf("/n");
+    printf("\n");
 
     suc = num + 1;
     ant = num - 1;
