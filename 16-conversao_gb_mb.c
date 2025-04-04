@@ -6,14 +6,14 @@ GB, imprima o seu valor em MB. */
 int main(){
     int gb, mb;
 
-    printf("Quantos Giga bites voce quer converter?: ");
+     printf("Informe a quantidade de GB que deseja converter para MB: ");
     scanf("%d", &gb);
 
     printf("\n");
 
     mb = gb * 1024;
 
-    printf("%dGB e igual a %dMB", gb, mb);
+    printf("%dGb e igual a %dMb", gb, mb);
 
     return 0;
 }
