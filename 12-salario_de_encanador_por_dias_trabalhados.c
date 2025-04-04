@@ -16,7 +16,7 @@ int main(){
 
     imposto = salario - (0.08 * salario);
 
-    printf("A quantidade de dias trabalhados foi %d, o slario a ser pago seria de R$%.2f, com o desnconto de imposto fica R$%.2f.", dia, salario, imposto);
+    printf("A quantidade de dias trabalhados foi %d, o salario a ser pago seria de R$%.2f. Com o desnconto de imposto de renda, fica R$%.2f.", dia, salario, imposto);
 
     return 0;
 }
