@@ -38,13 +38,13 @@ int main(){
         scanf("%f", &notas[i]);
     }
 
-    ma = (notas[1] + (notas[2] * 2) + (notas[3] * 3) + me)/7;
+    ma = (notas[0] + (notas[1] * 2) + (notas[2] * 3) + me)/7;
 
     printf("\n");
 
     printf("----Infromações do aluno----\n");
     printf("Numero do aluno: %d\n", num_a);
-    printf("Suas notas\n NOTA 1: %.2f\nNOTA 2: %.2f\nNOTA 3: %.2f\n", notas[1], notas[2], notas[3]);
+    printf("Suas notas\n NOTA 1: %.2f\nNOTA 2: %.2f\nNOTA 3: %.2f\n", notas[0], notas[1], notas[2]);
     printf("Media dos exercicios: %.2f\n", me);
     printf("Media de aproveitamento: %.2f\n", ma);
 
