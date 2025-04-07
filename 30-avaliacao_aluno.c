@@ -21,10 +21,10 @@ Aproveitamento | Conceito
 
 int main(){
     float me, ma, notas[3];
-    int cod;
+    int num_a;
 
     printf("Digite o codigo do aluno: ");
-    scanf("%d", &cod);
+    scanf("%d", &num_a);
 
     printf("\n");
 
@@ -33,13 +33,36 @@ int main(){
 
     printf("\n");
 
-    for (int i = 1; i <= 3; i++){
-        printf("Digite a nota %d: ", i);
-        scanf("%d", &i);
-        notas[i] += i;
+    for (int i = 0; i < 3; i++){
+        printf("Digite a nota %d: ", i + 1);
+        scanf("%f", &notas[i]);
     }
 
     ma = (notas[1] + (notas[2] * 2) + (notas[3] * 3) + me)/7;
+
+    printf("\n");
+
+    printf("----Infromações do aluno----\n");
+    printf("Numero do aluno: %d\n", num_a);
+    printf("Suas notas\n NOTA 1: %.2f\nNOTA 2: %.2f\nNOTA 3: %.2f\n", notas[1], notas[2], notas[3]);
+    printf("Media dos exercicios: %.2f\n", me);
+    printf("Media de aproveitamento: %.2f\n", ma);
+
+    if (ma >= 90){
+        printf("Conceito: A\nAprovado!\n");
+    }
+    else if (ma >= 75){
+        printf("Conceito: B\nAprovado!\n");
+    }
+    else if (ma >= 60){
+        printf("Conceito: C\nAprovado!\n");
+    }
+    else if (ma >= 40){
+        printf("Conceito: D\nReprovado!\n");
+    }
+    else{
+        printf("Conceito: E\nReprovado!\n");
+    }
 
     return 0;
 }
