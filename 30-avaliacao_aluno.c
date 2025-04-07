@@ -1,4 +1,4 @@
-/* 6. Escreva um algoritmo que leia o código de um aluno (somente números), as 3 notas obtidas por ele em
+/* Escreva um algoritmo que leia o código de um aluno (somente números), as 3 notas obtidas por ele em
 uma disciplina e a média dos exercícios que fazem parte da avaliação, e calcule a média de
 aproveitamento, usando a fórmula:
 
